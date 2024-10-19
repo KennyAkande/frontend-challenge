@@ -1,0 +1,78 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 375px;
+    margin: auto;
+    text-align: center;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 15px;
+    padding: 20px;
+  }
+  
+  .jessica img {
+    border-radius: 50%;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  p {
+    font-size: 14px;
+  }
+  
+  .location {
+    color: hsl(75, 94%, 57%); /* Green color */
+  }
+  
+  .button-container {
+    margin-top: 10px; /* Adjusted margin to bring buttons closer */
+  }
+  
+  .social-button,
+  .link-button {
+     display: block; /* Stack buttons vertically */
+     background-color: hsl(75, 94%, 57%); /* Green for social buttons */
+     border: none;
+     color: white;
+     padding: 10px;
+     border-radius: 5px;
+     margin: 5px auto; /* Center the button */
+     width: calc(100% - 20px); /* Full width minus padding */
+  }
+  
+  .social-button:hover {
+     background-color: hsl(75,94%,47%);
+  }
+  
+  /* New styles for link buttons */
+  .link-button {
+     background-color: transparent; /* Neutral background */
+     color: hsl(0, 0%, 100%); /* White text */
+     border: none; /* No border */
+     padding: 10px; /* Padding for buttons */
+     margin-top: 5px; /* Space between buttons */
+  }
+  
+  .link-button:hover {
+     background-color: hsl(75,94%,47%); /* Change on hover if desired */
+  }
+  
+  .links {
+     margin-top: 10px; /* Adjusted margin for better spacing */
+  }
+  
+  .attribution {
+     font-size: 11px; 
+     text-align: center; 
+     margin-top:20px; 
+  }
+  .attribution a { 
+     color: hsl(228,45%,44%); 
+  }
